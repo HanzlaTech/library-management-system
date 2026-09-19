@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        table,td,th{
+            border:1px solid black
+        }
+
+        .logout-btn {
+            position: fixed;
+            top: 20px;
+            right: 25px;
+            padding: 10px 18px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .logout-btn:hover {
+            background-color: #c9302c;
+        }
+    </style>
+    <script>
+  document.addEventListener("DOMContentLoaded",function(){
+    let xhr=new XMLHttpRequest()
+    xhr.open("GET","http://localhost:8001/auth/check",false)
+    xhr.withCredentials=true
+    xhr.send()
+    var response=xhr.response
+    response=JSON.parse(response)
+    if(xhr.status==200){
+      if(response.role==="User"){
+
+      }
+      else if(response.role==="Admin"){
+        alert("Admin cannot access that")
+      window.location.replace("login.html")
+      }
+      
+    }
+   
+   else if(xhr.status==401){
+  alert(respone.msg)
+      window.location.assign("login.html")
+    }
+    else if(xhr.status==404){
+      alert(response.status+" "+response.detail)
+     
+    }
+    else if(xhr.status==405){
+      alert(xhr.status+" "+response.detail)
+    }
+    else if(xhr.status==500){
+      alert(response.status+" "+response.msg)
+    }
+    else if(xhr.status==503){
+      alert(response.status+" "+response.msg)
+     
+    }
+    else{
+       alert("Unexpected Error"+" "+xhr.status)
+    }
+
+  xhr.open("GET","http://localhost:8001/picture",false)
+  xhr.send()
+var response=xhr.response
+response=JSON.parse(response)
+  if(xhr.status==200){
+image=document.getElementById("picture")
+image.src="http://localhost:8001/pic/"+response
+  }
+  })
+  
+          
+          function Logout() {
+
+             let xhr=new XMLHttpRequest()
+             xhr.open("POST","http://localhost:8001/logout",false)
+            xhr.withCredentials=true
+             xhr.send()
+             if (xhr.status==200){
+              window.location.replace("login.html")
+             }
+             else{
+              alert("logout dont occur")
+             }
+          }
+
+window.onload=function(){
+let xhr=new XMLHttpRequest();
+xhr.open("GET","http://localhost:8001/freebooks",false);
+xhr.withCredentials=true
+xhr.send();
+var response=xhr.response;
+response=JSON.parse(response);
+
+let book="";
+if(xhr.status==200){
+ for (let free of response){
+    book+=`<tr>
+        <td>${free.Book_name}</td>
+        <td>${free.Book_id}</td>
+        <td>${free.Author_name}</td>
+        <td><button onclick="OnfreeClick(this)">Request to Borrow</button></td>
+</tr>`;
+        } 
+          }
+          else if(xhr.status==401){
+            xhr.open("GET","http://localhost:8001/refresh",false)
+           xhr.withCredentials=true
+            xhr.send()
+            if(xhr.status==200){
+              window.reload()
+            }
+            else{
+              alert("j")
+            }
+          }
+       else if(xhr.status==404){
+                alert(xhr.status+" "+response.detail+" False")
+          window.location.assign("login.html")
+        }
+              else if(xhr.status==403){
+           alert(xhr.status+" "+response.msg+" "+response.status)
+               window.location.assign("login.html")
+          }
+          else if (xhr.status==405){
+            alert(xhr.status+" "+response.detail)
+          }
+          else if(xhr.status==500){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+          else if(xhr.status==422){
+            alert(response.status+" "+response.msg)
+          }else if(xhr.status==400){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+                else{
+                   alert("Unexpected Error"+" "+xhr.status)                
+            }
+document.getElementById("freebooks").innerHTML=book;
+      xhr.open("GET","http://localhost:8001/userrecord",false);
+      
+    xhr.withCredentials = true;
+    
+      xhr.send();
+      var response=xhr.response;
+      response=JSON.parse(response);
+      var boo="";
+      if(xhr.status==200){
+        
+        for (let free of response){
+    boo+=`<tr>
+        <td>${free.Book_id}</td>
+        <td>${free.Book_name}</td>
+        <td>${free.Book_isbn}</td>
+        <td>${free.Author_name}</td>
+        <td><button onclick="OnRequestedClick(this)">Cancel ${free.Status}</button></td>
+</tr>`;
+        } 
+     document.getElementById("userrecord").innerHTML=boo;
+      }
+      else if(xhr.status==401){
+      
+       xhr.open("GET","http://localhost:8001/refresh",false) 
+       xhr.withCredentials = true;
+        xhr.send()
+       
+        
+        if(xhr.status==200){
+         alert("userrecord refresh occur")
+         window.reload() 
+        
+        }
+        else{
+          alert("userrecord refresh dont occur")
+        }
+      }
+       else if(xhr.status==404){
+                alert(xhr.status+" "+response.detail)
+          window.location.assign("login.html")
+        }
+              else if(xhr.status==403){
+           alert(xhr.status+" "+response.msg+" "+response.status)
+               window.location.assign("login.html")
+          }
+          else if (xhr.status==405){
+            alert(xhr.status+" "+response.detail)
+          }
+          else if(xhr.status==500){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+          else if(xhr.status==422){
+            alert(response.status+" "+response.msg)
+          }else if(xhr.status==400){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+                else{
+                  alert("Unexpected Error"+" "+xhr.status)             
+            }
+      
+
+     } ;
+    
+document.addEventListener("visibilitychange",function(){
+  if(document.visibilityState==="visible"){
+    window.location.reload()
+  }
+})
+        function OnfreeClick(td){
+            
+            let row=td.parentElement.parentElement;
+            let id=row.cells[1].innerText;
+            id=parseInt(id);
+            let xhr=new XMLHttpRequest();
+           
+           
+           
+            xhr.open("POST","http://localhost:8001/request",false);
+            xhr.setRequestHeader("Content-Type","application/json");
+           xhr.withCredentials=true
+
+            xhr.send(JSON.stringify({
+            "ID":id
+            }));
+            var response=xhr.response
+            response=JSON.parse(response)
+
+            if(xhr.status==200){
+               
+             window.location.reload()
+               }
+
+            else if (xhr.status==401){
+              alert(xhr.status+" "+response.status+" "+respone.msg)
+              xhr.open("GET","http://localhost:8001/refresh",false)
+             xhr.withCredentials=true
+              xhr.send()
+             
+              if(xhr.status==200){
+                
+                OnfreeClick(td)
+              }
+              else{
+                alert(xhr.status+" "+response.msg+" "+response.status)
+              }
+            } 
+               else if(xhr.status==404){
+                alert(xhr.status+" "+response.detail+" "+"False")
+          window.location.assign("login.html")
+        }
+              else if(xhr.status==403){
+           alert(xhr.status+" "+response.msg+" "+response.status)
+               window.location.assign("login.html")
+          }
+          else if (xhr.status==405){
+            alert(xhr.status+" "+response.detail+" False")
+          }
+          else if(xhr.status==500){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+          else if(xhr.status==422){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }else if(xhr.status==400){
+            alert(xhr.status+" "+response.status+" "+response.msg)
+          }
+                else{
+                   alert("Unexpected Error"+" "+xhr.status)              
+            }
+
+            }
+
+        function OnRequestedClick(td){
+            let row=td.parentElement.parentElement;
+            let id=row.cells[0].innerText;
+          id=parseInt(id);
+            let xhr=new XMLHttpRequest();
+          xhr.open("POST","http://localhost:8001/cancel_request",false);
+        xhr.setRequestHeader("Content-Type","application/json");
+       xhr.withCredentials=true
+        xhr.send(JSON.stringify({
+            "id":id 
+        }));
+ var response=xhr.response
+            response=JSON.parse(response) 
+          if(xhr.status==200){
+            window.location.reload()
+          }
+          else if(xhr.status==401){
+            alert("free")
+            xhr.open("GET","http://localhost:8001/refresh",false)
+            xhr.withCredentials=true
+            xhr.send()
+           
+            if(xhr.status==200){
+             OnRequestedClick(td)
+             window.location.reload()
+            }
+          }
+          else if(xhr.status==404){
+                alert(response.detail)
+          window.location.assign("login.html")
+        }
+              else if(xhr.status==403){
+           alert(xhr.status+" "+response.msg+" "+response.status)
+            window.location.assign("login.html")
+          }
+          else if (xhr.status==405){
+            alert(xhr.status+" "+response.detail)
+          }
+          else if(xhr.status==500){
+            alert(response.status+" "+response.msg)
+          }
+          else if(xhr.status==422){
+            alert(response.status+" "+response.msg)
+          }else if(xhr.status==400){
+            alert(response.status+" "+response.msg)
+          }
+                else{
+                alert("Unexpected Error"+" "+xhr.status)                
+            }
+
+        }
+
+
+
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User_dashboard</title>
+</head>
+<body>
+  <button class="logout-btn" onclick="Logout()">Logout</button>
+     <h1>
+        User Page
+    </h1>
+    <h3>All Free Books</h3>
+    
+                <table>
+                   <thead>
+            <th>Book name</th>
+             <th>Book id</th>
+              <th>Author name</th>
+               <th>Status</th>
+                   </thead>
+       <tbody id="freebooks"></tbody>
+                </table>
+
+                <h3>User Books Record</h3>
+
+                <table>
+                    <thead>
+                        <th>Book id</th>
+                    <th>Book name</th>
+                    <th>ISBN</th>
+                    <th>Author name</th> 
+                    <th>Action</th>       
+                    </thead>
+                    
+               
+
+    <tbody id="userrecord"></tbody>
+                </table>
+ 
+       <button onclick="window.location.href='login.html'">Login</button>
+       <button onclick="window.location.href='signup.html'">Signup</button>
+
+       <img id="picture">
+</html>

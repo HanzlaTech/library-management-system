@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+        <script>
+
+           
+  
+ 
+
+            function OnLoginClick(){
+                var email = document.getElementById("email").value;
+                var password = document.getElementById("password").value;
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open("POST", "http://localhost:8001/login", false)
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.withCredentials = true;
+                xhr.send(JSON.stringify({
+                    "email": email,
+                    "password": password,
+                }));
+                  var response=xhr.response;
+                  response=JSON.parse(response)
+                if(xhr.status == 200){
+                    
+                    document.getElementById("api_response").innerText =response.detail.msg
+                    document.getElementById("api_response2").innerText=response.detail.status
+                     document.getElementById("api_response3").innerText=xhr.status
+                   alert(response.detail.role)
+                    if(response.detail.role==="User"){
+                   setTimeout(function(){
+                      window.location.assign("user_dashboard.html")
+                   },1700)
+                }
+                else if(response.detail.role==="Admin"){
+                    setTimeout(function(){
+                       
+                        window.location.replace("Admin_Dashboard.html")
+                    },1700)
+                }
+            }
+            else if (xhr.status==409){
+                alert(response.msg)
+            }
+            else if (xhr.status==500){
+                alert(response.msg)
+            }
+            else if (xhr.status==503){
+                alert(response.msg)
+            }
+            else if (xhr.status==422){
+                alert(response.msg)
+            }
+            else if (xhr.status==400){
+                alert(response.msg)
+            }
+                else {
+                    
+                document.getElementById("api_response").innerText ="login fail"
+                }
+            }
+
+
+        </script>
+        <head>
+            <title>Login page</title>
+        </head>
+        <body>
+            <p>login page</p>
+            <input type="email" id="email" name="email" placeholder="email"  autocomplete="email">
+            <input type="password" id="password" name="password" placeholder="password" autocomplete="off" >
+            <button id="callApiBtn" class="loginbtn" onclick="OnLoginClick()">Login Button</button>
+            <p id="api_response"></p>
+            <p id="api_response2"></p>
+             <p id="api_response3"></p>
+            <a href="signup.html">Signup </a>
+
+        </body>
+</html>

@@ -1,0 +1,1199 @@
+2026-09-11 23:39:51,606 - INFO - ---------------------------
+2026-09-11 23:39:51,607 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:39:51,607 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsImV4cCI6MTc4OTE1MTg0OX0.1wCEg8wZXGb78oa_WTNF01YTxRvn4RR244uwnC5xwLg'}
+2026-09-11 23:39:51,631 - INFO - ---------------------------
+2026-09-11 23:39:51,632 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:39:51,632 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsImV4cCI6MTc4OTE1MTg0OX0.1wCEg8wZXGb78oa_WTNF01YTxRvn4RR244uwnC5xwLg'}
+2026-09-11 23:39:51,639 - INFO - ---------------------------
+2026-09-11 23:39:51,640 - INFO - middleware for that endpoint: /refresh runs
+2026-09-11 23:39:51,640 - INFO - cookies : {'refresh': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzg5NzU2NTg5fQ.0O5rDG4WrtsH-gDjcqxUCSRRMVQZWDZUF_oO4qbgq-U', 'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsImV4cCI6MTc4OTE1MTg0OX0.1wCEg8wZXGb78oa_WTNF01YTxRvn4RR244uwnC5xwLg'}
+2026-09-11 23:39:51,645 - INFO - requst for refrsh api recieved
+2026-09-11 23:39:51,645 - INFO - data extract from  refresh token 
+2026-09-11 23:39:51,646 - INFO - refresh-payload is create
+2026-09-11 23:39:51,646 - INFO - access token is create
+2026-09-11 23:39:51,646 - INFO - refresh payload is create
+2026-09-11 23:39:51,646 - INFO - refresh token is create
+2026-09-11 23:39:51,647 - INFO - access token is create in cookies
+2026-09-11 23:39:51,647 - INFO - refresh token is create in cookies
+2026-09-11 23:40:07,031 - INFO - ---------------------------
+2026-09-11 23:40:07,032 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:40:07,032 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsImV4cCI6MTc4OTE1MjU5MX0.tv-UUDJJbD93Ap71jCfSI4Lmn5w5_U5ZcBE2NjvM408'}
+2026-09-11 23:40:07,037 - INFO - request recieved for upload file api
+2026-09-11 23:40:07,037 - INFO - data is read from file
+2026-09-11 23:40:07,037 - INFO - file is not empty
+2026-09-11 23:40:07,037 - INFO - extract extension from file
+2026-09-11 23:40:07,066 - INFO - signup First log is here
+2026-09-11 23:40:07,196 - INFO - password is hash
+2026-09-11 23:40:09,414 - INFO - emial format is correct
+2026-09-11 23:40:12,256 - INFO - otp is send
+2026-09-11 23:40:12,264 - INFO - insert otp in otp table or changing in database are save
+2026-09-11 23:40:12,265 - INFO - True
+2026-09-11 23:40:23,648 - INFO - ---------------------------
+2026-09-11 23:40:23,648 - INFO - middleware for that endpoint: /email runs
+2026-09-11 23:40:23,649 - INFO - cookies : {}
+2026-09-11 23:40:23,655 - INFO - request recieved for otp verify
+2026-09-11 23:40:23,658 - INFO - database query execute
+2026-09-11 23:40:23,658 - INFO - DB OTP: 146699, type: int
+2026-09-11 23:40:23,659 - INFO - Request OTP: 146699, type: int
+2026-09-11 23:40:23,661 - INFO - otp is verified
+2026-09-11 23:40:28,593 - INFO - ---------------------------
+2026-09-11 23:40:28,594 - INFO - middleware for that endpoint: /login runs
+2026-09-11 23:40:28,594 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI0LCJyb2xlIjoiVXNlciIsImVtYWlsIjoiZTFAZ21haWwuY29tIiwiVVJMIjoiMmFjMDYxZTAtMmNjMy00ZjI5LWE3ZWEtMjZhOWYyMWQwOWYxLmpwZyIsImV4cCI6MTc4OTE1MjU5MX0.tv-UUDJJbD93Ap71jCfSI4Lmn5w5_U5ZcBE2NjvM408'}
+2026-09-11 23:40:28,599 - INFO - Request arrives in log endpoint
+2026-09-11 23:40:28,600 - INFO - Request data
+2026-09-11 23:40:28,600 - INFO - email='r1@gmail.com' password='123'
+2026-09-11 23:40:28,600 - INFO - <starlette.requests.Request object at 0x000002C035F11D00>
+2026-09-11 23:40:28,601 - INFO - Database connect occur
+2026-09-11 23:40:28,603 - INFO - Database query execute
+2026-09-11 23:40:28,603 - INFO - User exist in database
+2026-09-11 23:40:28,729 - INFO - password is hash
+2026-09-11 23:40:28,729 - INFO - payload for access token is create
+2026-09-11 23:40:28,729 - INFO - access token is create
+2026-09-11 23:40:28,730 - INFO - refresh payload is create
+2026-09-11 23:40:28,730 - INFO - refresh token is create
+2026-09-11 23:40:28,730 - INFO - access cookie is create
+2026-09-11 23:40:28,730 - INFO - refresh cookie is create
+2026-09-11 23:40:28,730 - INFO - user data : {'Email': 'r1@gmail.com', 'Password': '$argon2id$v=19$m=65536,t=3,p=4$ORT9TQKiaP1vEgMRFIbfqg$E8cCQlRFe80k/CctNKZaQ0m75CvZwOTkhzeTrmoCyG4', 'User_id': 25, 'Role': 'User', 'Email_Verified': 1, 'URL': 'daebeb83-70ac-4d21-ba25-a81033aba2a5.jpg'}
+2026-09-11 23:40:31,873 - INFO - ---------------------------
+2026-09-11 23:40:31,873 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:40:31,873 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:40:31,874 - INFO - request recieved for auth/check
+2026-09-11 23:40:31,878 - INFO - ---------------------------
+2026-09-11 23:40:31,878 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:40:31,878 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:40:31,884 - INFO - ---------------------------
+2026-09-11 23:40:31,884 - INFO - middleware for that endpoint: /pic/daebeb83-70ac-4d21-ba25-a81033aba2a5.jpg runs
+2026-09-11 23:40:31,884 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:40:32,020 - INFO - ---------------------------
+2026-09-11 23:40:32,021 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:40:32,021 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:40:32,026 - INFO - request recieved for freebooks api
+2026-09-11 23:40:32,026 - INFO - correct role:user, call that api
+2026-09-11 23:40:32,030 - INFO - database query execute
+2026-09-11 23:40:32,044 - INFO - ---------------------------
+2026-09-11 23:40:32,045 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:40:32,045 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:40:32,051 - INFO - request recieved for userrecord api
+2026-09-11 23:40:32,052 - INFO - correct role:user, call userrecord api
+2026-09-11 23:40:32,055 - INFO - database query execute
+2026-09-11 23:42:02,385 - INFO - ---------------------------
+2026-09-11 23:42:02,388 - INFO - middleware for that endpoint: /pic/e77f46f7-0de9-4607-972b-6d70f0ed2731.jpg runs
+2026-09-11 23:42:02,390 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:42:02,457 - INFO - ---------------------------
+2026-09-11 23:42:02,457 - INFO - middleware for that endpoint: /favicon.ico runs
+2026-09-11 23:42:02,457 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:42:05,518 - INFO - ---------------------------
+2026-09-11 23:42:05,518 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:42:05,518 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:42:05,523 - INFO - ---------------------------
+2026-09-11 23:42:05,523 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:42:05,523 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:42:05,527 - INFO - ---------------------------
+2026-09-11 23:42:05,527 - INFO - middleware for that endpoint: /refresh runs
+2026-09-11 23:42:05,527 - INFO - cookies : {'refresh': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzg5NzU2ODI4fQ.VGPJSJ7FoH4QfjvnWF6FjTbtiV61AYFwRKQHC9nRnxs', 'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjA4OH0.5GHrEjIHFKiIM2ZXNxabHw2uzBK3SZll_gBrR2lA7XQ'}
+2026-09-11 23:42:05,530 - INFO - requst for refrsh api recieved
+2026-09-11 23:42:05,531 - INFO - data extract from  refresh token 
+2026-09-11 23:42:05,531 - INFO - refresh-payload is create
+2026-09-11 23:42:05,531 - INFO - access token is create
+2026-09-11 23:42:05,531 - INFO - refresh payload is create
+2026-09-11 23:42:05,531 - INFO - refresh token is create
+2026-09-11 23:42:05,531 - INFO - access token is create in cookies
+2026-09-11 23:42:05,531 - INFO - refresh token is create in cookies
+2026-09-11 23:42:06,777 - INFO - ---------------------------
+2026-09-11 23:42:06,777 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:42:06,777 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:06,780 - INFO - request recieved for auth/check
+2026-09-11 23:42:06,787 - INFO - ---------------------------
+2026-09-11 23:42:06,788 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:42:06,788 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:06,796 - INFO - ---------------------------
+2026-09-11 23:42:06,796 - INFO - middleware for that endpoint: /pic/daebeb83-70ac-4d21-ba25-a81033aba2a5.jpg runs
+2026-09-11 23:42:06,796 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:06,802 - INFO - ---------------------------
+2026-09-11 23:42:06,803 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:42:06,803 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:06,805 - INFO - request recieved for freebooks api
+2026-09-11 23:42:06,805 - INFO - correct role:user, call that api
+2026-09-11 23:42:06,807 - INFO - database query execute
+2026-09-11 23:42:06,812 - INFO - ---------------------------
+2026-09-11 23:42:06,812 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:42:06,812 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:06,815 - INFO - request recieved for userrecord api
+2026-09-11 23:42:06,815 - INFO - correct role:user, call userrecord api
+2026-09-11 23:42:06,816 - INFO - database query execute
+2026-09-11 23:42:09,265 - INFO - ---------------------------
+2026-09-11 23:42:09,266 - INFO - middleware for that endpoint: /pic/e77f46f7-0de9-4607-972b-6d70f0ed2731.jpg runs
+2026-09-11 23:42:09,266 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:09,302 - INFO - ---------------------------
+2026-09-11 23:42:09,303 - INFO - middleware for that endpoint: /favicon.ico runs
+2026-09-11 23:42:09,303 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,786 - INFO - ---------------------------
+2026-09-11 23:42:24,787 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:42:24,787 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,788 - INFO - request recieved for auth/check
+2026-09-11 23:42:24,792 - INFO - ---------------------------
+2026-09-11 23:42:24,792 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:42:24,792 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,797 - INFO - ---------------------------
+2026-09-11 23:42:24,797 - INFO - middleware for that endpoint: /pic/daebeb83-70ac-4d21-ba25-a81033aba2a5.jpg runs
+2026-09-11 23:42:24,797 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,957 - INFO - ---------------------------
+2026-09-11 23:42:24,957 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:42:24,957 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,960 - INFO - request recieved for freebooks api
+2026-09-11 23:42:24,960 - INFO - correct role:user, call that api
+2026-09-11 23:42:24,962 - INFO - database query execute
+2026-09-11 23:42:24,969 - INFO - ---------------------------
+2026-09-11 23:42:24,969 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:42:24,969 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:24,971 - INFO - request recieved for userrecord api
+2026-09-11 23:42:24,971 - INFO - correct role:user, call userrecord api
+2026-09-11 23:42:24,972 - INFO - database query execute
+2026-09-11 23:42:58,975 - INFO - ---------------------------
+2026-09-11 23:42:58,976 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:42:58,977 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:42:58,988 - INFO - request recieved for upload file api
+2026-09-11 23:42:58,989 - INFO - data is read from file
+2026-09-11 23:42:58,989 - INFO - file is not empty
+2026-09-11 23:42:58,990 - INFO - extract extension from file
+2026-09-11 23:43:56,903 - INFO - ---------------------------
+2026-09-11 23:43:56,904 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:43:56,904 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:43:56,937 - INFO - request recieved for upload file api
+2026-09-11 23:43:56,938 - INFO - data is read from file
+2026-09-11 23:43:56,938 - INFO - file is not empty
+2026-09-11 23:43:56,939 - INFO - extract extension from file
+2026-09-11 23:43:56,975 - INFO - signup First log is here
+2026-09-11 23:43:57,211 - INFO - password is hash
+2026-09-11 23:43:59,383 - INFO - emial format is correct
+2026-09-11 23:44:02,520 - INFO - otp is send
+2026-09-11 23:44:02,528 - INFO - insert otp in otp table or changing in database are save
+2026-09-11 23:44:12,486 - INFO - ---------------------------
+2026-09-11 23:44:12,487 - INFO - middleware for that endpoint: /email runs
+2026-09-11 23:44:12,488 - INFO - cookies : {}
+2026-09-11 23:44:12,495 - INFO - request recieved for otp verify
+2026-09-11 23:44:12,499 - INFO - database query execute
+2026-09-11 23:44:12,500 - INFO - DB OTP: 952192, type: int
+2026-09-11 23:44:12,500 - INFO - Request OTP: 952192, type: int
+2026-09-11 23:44:12,503 - INFO - otp is verified
+2026-09-11 23:44:16,442 - INFO - ---------------------------
+2026-09-11 23:44:16,443 - INFO - middleware for that endpoint: /login runs
+2026-09-11 23:44:16,444 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI1LCJyb2xlIjoiVXNlciIsImVtYWlsIjoicjFAZ21haWwuY29tIiwiVVJMIjoiZGFlYmViODMtNzBhYy00ZDIxLWJhMjUtYTgxMDMzYWJhMmE1LmpwZyIsImV4cCI6MTc4OTE1MjcyNX0.bpAZokW6WfrtL5wTT_vZdhp-3oAo_0huQ-Ef27Kybho'}
+2026-09-11 23:44:16,452 - INFO - Request arrives in log endpoint
+2026-09-11 23:44:16,453 - INFO - Request data
+2026-09-11 23:44:16,453 - INFO - email='y1@gmail.com' password='123'
+2026-09-11 23:44:16,454 - INFO - <starlette.requests.Request object at 0x000001D03F5E0CB0>
+2026-09-11 23:44:16,455 - INFO - Database connect occur
+2026-09-11 23:44:16,458 - INFO - Database query execute
+2026-09-11 23:44:16,459 - INFO - User exist in database
+2026-09-11 23:44:16,639 - INFO - password is hash
+2026-09-11 23:44:16,640 - INFO - payload for access token is create
+2026-09-11 23:44:16,649 - INFO - access token is create
+2026-09-11 23:44:16,649 - INFO - refresh payload is create
+2026-09-11 23:44:16,650 - INFO - refresh token is create
+2026-09-11 23:44:16,650 - INFO - access cookie is create
+2026-09-11 23:44:16,651 - INFO - refresh cookie is create
+2026-09-11 23:44:16,651 - INFO - user data : {'Email': 'y1@gmail.com', 'Password': '$argon2id$v=19$m=65536,t=3,p=4$x0V9gqVOE5i+ENkpSd1YjA$sP4t9YqZSBC/clVfSTZqkiih3oWblAhfgn0jmI+N2MU', 'User_id': 26, 'Role': 'User', 'Email_Verified': 1, 'URL': 'cddf8dec-144f-42a6-a572-278ef5833e14.jpg'}
+2026-09-11 23:44:20,851 - INFO - ---------------------------
+2026-09-11 23:44:20,851 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:44:20,852 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:20,856 - INFO - request recieved for auth/check
+2026-09-11 23:44:20,866 - INFO - ---------------------------
+2026-09-11 23:44:20,867 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:44:20,867 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:20,881 - INFO - ---------------------------
+2026-09-11 23:44:20,882 - INFO - middleware for that endpoint: /pic/cddf8dec-144f-42a6-a572-278ef5833e14.jpg runs
+2026-09-11 23:44:20,882 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:21,088 - INFO - ---------------------------
+2026-09-11 23:44:21,088 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:44:21,088 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:21,090 - INFO - request recieved for freebooks api
+2026-09-11 23:44:21,090 - INFO - correct role:user, call that api
+2026-09-11 23:44:21,091 - INFO - database query execute
+2026-09-11 23:44:21,098 - INFO - ---------------------------
+2026-09-11 23:44:21,098 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:44:21,099 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:21,101 - INFO - request recieved for userrecord api
+2026-09-11 23:44:21,101 - INFO - correct role:user, call userrecord api
+2026-09-11 23:44:21,102 - INFO - database query execute
+2026-09-11 23:44:42,282 - INFO - ---------------------------
+2026-09-11 23:44:42,282 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:44:42,282 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,284 - INFO - request recieved for auth/check
+2026-09-11 23:44:42,293 - INFO - ---------------------------
+2026-09-11 23:44:42,293 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:44:42,293 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,308 - INFO - ---------------------------
+2026-09-11 23:44:42,309 - INFO - middleware for that endpoint: /pic/cddf8dec-144f-42a6-a572-278ef5833e14.jpg runs
+2026-09-11 23:44:42,309 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,329 - INFO - ---------------------------
+2026-09-11 23:44:42,330 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:44:42,330 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,333 - INFO - request recieved for freebooks api
+2026-09-11 23:44:42,333 - INFO - correct role:user, call that api
+2026-09-11 23:44:42,336 - INFO - database query execute
+2026-09-11 23:44:42,351 - INFO - ---------------------------
+2026-09-11 23:44:42,352 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:44:42,352 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,354 - INFO - request recieved for userrecord api
+2026-09-11 23:44:42,355 - INFO - correct role:user, call userrecord api
+2026-09-11 23:44:42,356 - INFO - database query execute
+2026-09-11 23:44:42,819 - INFO - ---------------------------
+2026-09-11 23:44:42,819 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:44:42,819 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,821 - INFO - request recieved for auth/check
+2026-09-11 23:44:42,828 - INFO - ---------------------------
+2026-09-11 23:44:42,829 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:44:42,829 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,844 - INFO - ---------------------------
+2026-09-11 23:44:42,844 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:44:42,844 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,847 - INFO - request recieved for freebooks api
+2026-09-11 23:44:42,847 - INFO - correct role:user, call that api
+2026-09-11 23:44:42,849 - INFO - database query execute
+2026-09-11 23:44:42,864 - INFO - ---------------------------
+2026-09-11 23:44:42,864 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:44:42,865 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:44:42,869 - INFO - request recieved for userrecord api
+2026-09-11 23:44:42,870 - INFO - correct role:user, call userrecord api
+2026-09-11 23:44:42,871 - INFO - database query execute
+2026-09-11 23:45:08,158 - INFO - ---------------------------
+2026-09-11 23:45:08,159 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:45:08,159 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:08,161 - INFO - request recieved for auth/check
+2026-09-11 23:45:08,171 - INFO - ---------------------------
+2026-09-11 23:45:08,172 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:45:08,172 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:08,190 - INFO - ---------------------------
+2026-09-11 23:45:08,190 - INFO - middleware for that endpoint: /pic/cddf8dec-144f-42a6-a572-278ef5833e14.jpg runs
+2026-09-11 23:45:08,191 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:08,209 - INFO - ---------------------------
+2026-09-11 23:45:08,209 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:45:08,210 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:08,212 - INFO - request recieved for freebooks api
+2026-09-11 23:45:08,213 - INFO - correct role:user, call that api
+2026-09-11 23:45:08,215 - INFO - database query execute
+2026-09-11 23:45:08,230 - INFO - ---------------------------
+2026-09-11 23:45:08,231 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:45:08,231 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:08,235 - INFO - request recieved for userrecord api
+2026-09-11 23:45:08,236 - INFO - correct role:user, call userrecord api
+2026-09-11 23:45:08,240 - INFO - database query execute
+2026-09-11 23:45:22,364 - INFO - ---------------------------
+2026-09-11 23:45:22,365 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:45:22,365 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:22,376 - INFO - ---------------------------
+2026-09-11 23:45:22,376 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:45:22,376 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:22,383 - INFO - ---------------------------
+2026-09-11 23:45:22,383 - INFO - middleware for that endpoint: /refresh runs
+2026-09-11 23:45:22,383 - INFO - cookies : {'refresh': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzg5NzU3MDU2fQ.90p5JCk4dQ3yxsnjJnWj4MKL0r88TSsnW0ogrCwfTxs', 'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjMxNn0.FIvmrtEGJnpveEipjRGACfCaOlKasntnKbFcsbibUYE'}
+2026-09-11 23:45:22,394 - INFO - requst for refrsh api recieved
+2026-09-11 23:45:22,395 - INFO - data extract from  refresh token 
+2026-09-11 23:45:22,395 - INFO - refresh-payload is create
+2026-09-11 23:45:22,395 - INFO - access token is create
+2026-09-11 23:45:22,396 - INFO - refresh payload is create
+2026-09-11 23:45:22,396 - INFO - refresh token is create
+2026-09-11 23:45:22,397 - INFO - access token is create in cookies
+2026-09-11 23:45:22,398 - INFO - refresh token is create in cookies
+2026-09-11 23:45:25,219 - INFO - ---------------------------
+2026-09-11 23:45:25,220 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:45:25,220 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:45:25,223 - INFO - request recieved for auth/check
+2026-09-11 23:45:25,235 - INFO - ---------------------------
+2026-09-11 23:45:25,235 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:45:25,236 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:45:25,250 - INFO - ---------------------------
+2026-09-11 23:45:25,251 - INFO - middleware for that endpoint: /pic/cddf8dec-144f-42a6-a572-278ef5833e14.jpg runs
+2026-09-11 23:45:25,252 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:45:25,272 - INFO - ---------------------------
+2026-09-11 23:45:25,272 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:45:25,273 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:45:25,277 - INFO - request recieved for freebooks api
+2026-09-11 23:45:25,277 - INFO - correct role:user, call that api
+2026-09-11 23:45:25,280 - INFO - database query execute
+2026-09-11 23:45:25,293 - INFO - ---------------------------
+2026-09-11 23:45:25,294 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:45:25,294 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:45:25,297 - INFO - request recieved for userrecord api
+2026-09-11 23:45:25,297 - INFO - correct role:user, call userrecord api
+2026-09-11 23:45:25,302 - INFO - database query execute
+2026-09-11 23:46:41,692 - INFO - ---------------------------
+2026-09-11 23:46:41,693 - INFO - middleware for that endpoint: /pic/e77f46f7-0de9-4607-972b-6d70f0ed2731.jpg runs
+2026-09-11 23:46:41,693 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,495 - INFO - ---------------------------
+2026-09-11 23:46:46,495 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-11 23:46:46,495 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,497 - INFO - request recieved for auth/check
+2026-09-11 23:46:46,501 - INFO - ---------------------------
+2026-09-11 23:46:46,502 - INFO - middleware for that endpoint: /picture runs
+2026-09-11 23:46:46,502 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,510 - INFO - ---------------------------
+2026-09-11 23:46:46,510 - INFO - middleware for that endpoint: /pic/cddf8dec-144f-42a6-a572-278ef5833e14.jpg runs
+2026-09-11 23:46:46,510 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,525 - INFO - ---------------------------
+2026-09-11 23:46:46,525 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-11 23:46:46,525 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,526 - INFO - request recieved for freebooks api
+2026-09-11 23:46:46,526 - INFO - correct role:user, call that api
+2026-09-11 23:46:46,528 - INFO - database query execute
+2026-09-11 23:46:46,535 - INFO - ---------------------------
+2026-09-11 23:46:46,536 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-11 23:46:46,536 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:46:46,539 - INFO - request recieved for userrecord api
+2026-09-11 23:46:46,539 - INFO - correct role:user, call userrecord api
+2026-09-11 23:46:46,540 - INFO - database query execute
+2026-09-11 23:52:56,344 - INFO - ---------------------------
+2026-09-11 23:52:56,344 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:52:56,345 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:52:56,358 - INFO - request recieved for upload file api
+2026-09-11 23:52:56,359 - INFO - data is read from file
+2026-09-11 23:52:56,359 - INFO - file is not empty
+2026-09-11 23:52:56,359 - INFO - extract extension from file
+2026-09-11 23:52:56,359 - INFO - our file extension is wrong
+2026-09-11 23:53:24,692 - INFO - ---------------------------
+2026-09-11 23:53:24,693 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:53:24,694 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjI2LCJyb2xlIjoiVXNlciIsImVtYWlsIjoieTFAZ21haWwuY29tIiwiVVJMIjoiY2RkZjhkZWMtMTQ0Zi00MmE2LWE1NzItMjc4ZWY1ODMzZTE0LmpwZyIsImV4cCI6MTc4OTE1MjkyMn0.d1JQpjX3zgZNfOwbdbOeGYMZ5l34ujvKNjNOEtKhhlc'}
+2026-09-11 23:53:24,705 - INFO - request recieved for upload file api
+2026-09-11 23:53:24,705 - INFO - data is read from file
+2026-09-11 23:53:24,706 - INFO - file is not empty
+2026-09-11 23:53:24,707 - INFO - extract extension from file
+2026-09-11 23:53:24,707 - INFO - this file is not a image
+2026-09-11 23:57:14,682 - INFO - ---------------------------
+2026-09-11 23:57:14,682 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:57:14,683 - INFO - cookies : {}
+2026-09-11 23:57:14,685 - INFO - request recieved for upload file api
+2026-09-11 23:57:14,685 - INFO - data is read from file
+2026-09-11 23:57:14,685 - INFO - file is not empty
+2026-09-11 23:57:14,685 - INFO - extract extension from file
+2026-09-11 23:57:14,686 - INFO - this file is not a image
+2026-09-11 23:58:53,895 - INFO - ---------------------------
+2026-09-11 23:58:53,895 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:58:53,895 - INFO - cookies : {}
+2026-09-11 23:58:54,653 - INFO - request recieved for upload file api
+2026-09-11 23:58:54,705 - INFO - data is read from file
+2026-09-11 23:58:54,705 - INFO - file is not empty
+2026-09-11 23:58:54,705 - INFO - extract extension from file
+2026-09-11 23:58:54,705 - INFO - our file is more than 5mb
+2026-09-11 23:59:05,645 - INFO - ---------------------------
+2026-09-11 23:59:05,645 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:05,645 - INFO - cookies : {}
+2026-09-11 23:59:05,681 - INFO - request recieved for upload file api
+2026-09-11 23:59:05,683 - INFO - data is read from file
+2026-09-11 23:59:05,683 - INFO - file is not empty
+2026-09-11 23:59:05,683 - INFO - extract extension from file
+2026-09-11 23:59:05,683 - INFO - our file extension is wrong
+2026-09-11 23:59:15,409 - INFO - ---------------------------
+2026-09-11 23:59:15,409 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:15,409 - INFO - cookies : {}
+2026-09-11 23:59:16,688 - INFO - request recieved for upload file api
+2026-09-11 23:59:16,764 - INFO - data is read from file
+2026-09-11 23:59:16,764 - INFO - file is not empty
+2026-09-11 23:59:16,764 - INFO - extract extension from file
+2026-09-11 23:59:16,764 - INFO - our file is more than 5mb
+2026-09-11 23:59:25,243 - INFO - ---------------------------
+2026-09-11 23:59:25,243 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:25,243 - INFO - cookies : {}
+2026-09-11 23:59:25,245 - INFO - request recieved for upload file api
+2026-09-11 23:59:25,245 - INFO - data is read from file
+2026-09-11 23:59:25,245 - INFO - file is not empty
+2026-09-11 23:59:25,245 - INFO - extract extension from file
+2026-09-11 23:59:25,245 - INFO - our file extension is wrong
+2026-09-11 23:59:34,206 - INFO - ---------------------------
+2026-09-11 23:59:34,206 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:34,207 - INFO - cookies : {}
+2026-09-11 23:59:34,208 - INFO - request recieved for upload file api
+2026-09-11 23:59:34,208 - INFO - data is read from file
+2026-09-11 23:59:34,208 - INFO - file is not empty
+2026-09-11 23:59:34,208 - INFO - extract extension from file
+2026-09-11 23:59:34,208 - INFO - our file extension is wrong
+2026-09-11 23:59:43,409 - INFO - ---------------------------
+2026-09-11 23:59:43,409 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:43,409 - INFO - cookies : {}
+2026-09-11 23:59:43,412 - INFO - request recieved for upload file api
+2026-09-11 23:59:43,412 - INFO - data is read from file
+2026-09-11 23:59:43,412 - INFO - file is not empty
+2026-09-11 23:59:43,412 - INFO - extract extension from file
+2026-09-11 23:59:43,412 - INFO - our file extension is wrong
+2026-09-11 23:59:56,274 - INFO - ---------------------------
+2026-09-11 23:59:56,274 - INFO - middleware for that endpoint: /signup runs
+2026-09-11 23:59:56,274 - INFO - cookies : {}
+2026-09-11 23:59:56,286 - INFO - request recieved for upload file api
+2026-09-11 23:59:56,286 - INFO - data is read from file
+2026-09-11 23:59:56,286 - INFO - file is not empty
+2026-09-11 23:59:56,286 - INFO - extract extension from file
+2026-09-11 23:59:56,286 - INFO - this file is not a image
+2026-09-16 12:46:16,141 - INFO - ---------------------------
+2026-09-16 12:46:16,142 - INFO - middleware for that endpoint: /login runs
+2026-09-16 12:46:16,143 - INFO - cookies : {}
+2026-09-16 12:46:16,158 - INFO - Request arrives in log endpoint
+2026-09-16 12:46:16,159 - INFO - Request data
+2026-09-16 12:46:16,160 - INFO - email='l1@gmail.com' password='123'
+2026-09-16 12:46:16,160 - INFO - <starlette.requests.Request object at 0x000001B187F1D950>
+2026-09-16 12:46:16,161 - INFO - Database connect occur
+2026-09-16 12:46:16,173 - INFO - Database query execute
+2026-09-16 12:46:16,173 - INFO - User exist in database
+2026-09-16 12:46:16,256 - INFO - password is hash
+2026-09-16 12:46:16,257 - INFO - payload for access token is create
+2026-09-16 12:46:16,279 - INFO - access token is create
+2026-09-16 12:46:16,279 - INFO - refresh payload is create
+2026-09-16 12:46:16,279 - INFO - refresh token is create
+2026-09-16 12:46:16,279 - INFO - access cookie is create
+2026-09-16 12:46:16,279 - INFO - refresh cookie is create
+2026-09-16 12:46:16,279 - INFO - user data : {'Email': 'l1@gmail.com', 'Password': '$argon2id$v=19$m=65536,t=3,p=4$G81Tw0SQbagJzIKuHwKgJA$M31NZmTo1kSSiXRZyVD/qSw6i7UchvIcvZEiHsq7Yag', 'User_id': 20, 'Role': 'User', 'Email_Verified': 1, 'URL': 'ad917721-ad77-4635-b263-d41222079f7b.jpg'}
+2026-09-16 12:46:19,660 - INFO - ---------------------------
+2026-09-16 12:46:19,660 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:19,661 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:19,662 - INFO - request recieved for auth/check
+2026-09-16 12:46:19,666 - INFO - ---------------------------
+2026-09-16 12:46:19,666 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:19,666 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:19,671 - INFO - ---------------------------
+2026-09-16 12:46:19,672 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:19,672 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:19,690 - INFO - ---------------------------
+2026-09-16 12:46:19,690 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:19,690 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:19,691 - INFO - request recieved for freebooks api
+2026-09-16 12:46:19,691 - INFO - correct role:user, call that api
+2026-09-16 12:46:19,695 - INFO - database query execute
+2026-09-16 12:46:19,699 - INFO - ---------------------------
+2026-09-16 12:46:19,699 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:19,699 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:19,701 - INFO - request recieved for userrecord api
+2026-09-16 12:46:19,701 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:19,702 - INFO - database query execute
+2026-09-16 12:46:25,531 - INFO - ---------------------------
+2026-09-16 12:46:25,532 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:25,532 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,537 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:25,537 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:25,537 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:25,538 - INFO - database connection occur
+2026-09-16 12:46:25,539 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:25,539 - INFO - take row from cursor obj
+2026-09-16 12:46:25,539 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:25,545 - INFO - insert book in record table
+2026-09-16 12:46:25,551 - INFO - save changes in database
+2026-09-16 12:46:25,552 - INFO - close the cursor
+2026-09-16 12:46:25,593 - INFO - ---------------------------
+2026-09-16 12:46:25,593 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:25,593 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,594 - INFO - request recieved for auth/check
+2026-09-16 12:46:25,599 - INFO - ---------------------------
+2026-09-16 12:46:25,599 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:25,599 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,606 - INFO - ---------------------------
+2026-09-16 12:46:25,607 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:25,607 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,795 - INFO - ---------------------------
+2026-09-16 12:46:25,796 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:25,796 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,798 - INFO - request recieved for freebooks api
+2026-09-16 12:46:25,798 - INFO - correct role:user, call that api
+2026-09-16 12:46:25,800 - INFO - database query execute
+2026-09-16 12:46:25,809 - INFO - ---------------------------
+2026-09-16 12:46:25,809 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:25,809 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:25,812 - INFO - request recieved for userrecord api
+2026-09-16 12:46:25,812 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:25,814 - INFO - database query execute
+2026-09-16 12:46:27,429 - INFO - ---------------------------
+2026-09-16 12:46:27,429 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:27,429 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,432 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:27,433 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:27,433 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:27,433 - INFO - database connection occur
+2026-09-16 12:46:27,434 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:27,434 - INFO - take row from cursor obj
+2026-09-16 12:46:27,434 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:27,436 - INFO - insert book in record table
+2026-09-16 12:46:27,442 - INFO - save changes in database
+2026-09-16 12:46:27,442 - INFO - close the cursor
+2026-09-16 12:46:27,507 - INFO - ---------------------------
+2026-09-16 12:46:27,507 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:27,508 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,509 - INFO - request recieved for auth/check
+2026-09-16 12:46:27,516 - INFO - ---------------------------
+2026-09-16 12:46:27,516 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:27,516 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,523 - INFO - ---------------------------
+2026-09-16 12:46:27,524 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:27,524 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,529 - INFO - ---------------------------
+2026-09-16 12:46:27,530 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:27,530 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,534 - INFO - request recieved for freebooks api
+2026-09-16 12:46:27,535 - INFO - correct role:user, call that api
+2026-09-16 12:46:27,537 - INFO - database query execute
+2026-09-16 12:46:27,543 - INFO - ---------------------------
+2026-09-16 12:46:27,543 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:27,543 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:27,544 - INFO - request recieved for userrecord api
+2026-09-16 12:46:27,545 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:27,546 - INFO - database query execute
+2026-09-16 12:46:29,674 - INFO - ---------------------------
+2026-09-16 12:46:29,674 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:29,674 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:29,676 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:29,676 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:29,676 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:29,676 - INFO - database connection occur
+2026-09-16 12:46:29,677 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:29,677 - INFO - take row from cursor obj
+2026-09-16 12:46:29,677 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:29,678 - INFO - insert book in record table
+2026-09-16 12:46:29,684 - INFO - save changes in database
+2026-09-16 12:46:29,684 - INFO - close the cursor
+2026-09-16 12:46:29,734 - INFO - ---------------------------
+2026-09-16 12:46:29,734 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:29,734 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:29,735 - INFO - request recieved for auth/check
+2026-09-16 12:46:29,741 - INFO - ---------------------------
+2026-09-16 12:46:29,742 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:29,742 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:29,748 - INFO - ---------------------------
+2026-09-16 12:46:29,748 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:29,748 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:30,429 - INFO - ---------------------------
+2026-09-16 12:46:30,429 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:30,430 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:30,432 - INFO - request recieved for freebooks api
+2026-09-16 12:46:30,432 - INFO - correct role:user, call that api
+2026-09-16 12:46:30,433 - INFO - database query execute
+2026-09-16 12:46:30,438 - INFO - ---------------------------
+2026-09-16 12:46:30,438 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:30,438 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:30,440 - INFO - request recieved for userrecord api
+2026-09-16 12:46:30,440 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:30,441 - INFO - database query execute
+2026-09-16 12:46:31,724 - INFO - ---------------------------
+2026-09-16 12:46:31,724 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:31,724 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,727 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:31,727 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:31,727 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:31,728 - INFO - database connection occur
+2026-09-16 12:46:31,729 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:31,729 - INFO - take row from cursor obj
+2026-09-16 12:46:31,729 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:31,730 - INFO - insert book in record table
+2026-09-16 12:46:31,737 - INFO - save changes in database
+2026-09-16 12:46:31,738 - INFO - close the cursor
+2026-09-16 12:46:31,781 - INFO - ---------------------------
+2026-09-16 12:46:31,781 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:31,781 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,782 - INFO - request recieved for auth/check
+2026-09-16 12:46:31,787 - INFO - ---------------------------
+2026-09-16 12:46:31,787 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:31,787 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,792 - INFO - ---------------------------
+2026-09-16 12:46:31,793 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:31,793 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,799 - INFO - ---------------------------
+2026-09-16 12:46:31,799 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:31,799 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,801 - INFO - request recieved for freebooks api
+2026-09-16 12:46:31,801 - INFO - correct role:user, call that api
+2026-09-16 12:46:31,802 - INFO - database query execute
+2026-09-16 12:46:31,809 - INFO - ---------------------------
+2026-09-16 12:46:31,809 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:31,809 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:31,810 - INFO - request recieved for userrecord api
+2026-09-16 12:46:31,810 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:31,811 - INFO - database query execute
+2026-09-16 12:46:34,000 - INFO - ---------------------------
+2026-09-16 12:46:34,000 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:46:34,000 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,003 - INFO - request recieved at cancel request
+2026-09-16 12:46:34,003 - INFO - correct role like user call cancel request api
+2026-09-16 12:46:34,007 - INFO - query execute for cancel request
+2026-09-16 12:46:34,012 - INFO - changes save in connection
+2026-09-16 12:46:34,060 - INFO - ---------------------------
+2026-09-16 12:46:34,060 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:34,060 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,061 - INFO - request recieved for auth/check
+2026-09-16 12:46:34,066 - INFO - ---------------------------
+2026-09-16 12:46:34,066 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:34,066 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,070 - INFO - ---------------------------
+2026-09-16 12:46:34,070 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:34,070 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,747 - INFO - ---------------------------
+2026-09-16 12:46:34,747 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:34,747 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,748 - INFO - request recieved for freebooks api
+2026-09-16 12:46:34,749 - INFO - correct role:user, call that api
+2026-09-16 12:46:34,750 - INFO - database query execute
+2026-09-16 12:46:34,754 - INFO - ---------------------------
+2026-09-16 12:46:34,755 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:34,755 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:34,756 - INFO - request recieved for userrecord api
+2026-09-16 12:46:34,756 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:34,757 - INFO - database query execute
+2026-09-16 12:46:35,681 - INFO - ---------------------------
+2026-09-16 12:46:35,682 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:46:35,682 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,684 - INFO - request recieved at cancel request
+2026-09-16 12:46:35,684 - INFO - correct role like user call cancel request api
+2026-09-16 12:46:35,685 - INFO - query execute for cancel request
+2026-09-16 12:46:35,690 - INFO - changes save in connection
+2026-09-16 12:46:35,733 - INFO - ---------------------------
+2026-09-16 12:46:35,733 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:35,733 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,734 - INFO - request recieved for auth/check
+2026-09-16 12:46:35,738 - INFO - ---------------------------
+2026-09-16 12:46:35,738 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:35,738 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,743 - INFO - ---------------------------
+2026-09-16 12:46:35,744 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:35,744 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,753 - INFO - ---------------------------
+2026-09-16 12:46:35,754 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:35,754 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,756 - INFO - request recieved for freebooks api
+2026-09-16 12:46:35,756 - INFO - correct role:user, call that api
+2026-09-16 12:46:35,758 - INFO - database query execute
+2026-09-16 12:46:35,765 - INFO - ---------------------------
+2026-09-16 12:46:35,765 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:35,765 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:35,766 - INFO - request recieved for userrecord api
+2026-09-16 12:46:35,766 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:35,767 - INFO - database query execute
+2026-09-16 12:46:37,462 - INFO - ---------------------------
+2026-09-16 12:46:37,462 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:46:37,462 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:37,465 - INFO - request recieved at cancel request
+2026-09-16 12:46:37,465 - INFO - correct role like user call cancel request api
+2026-09-16 12:46:37,467 - INFO - query execute for cancel request
+2026-09-16 12:46:37,472 - INFO - changes save in connection
+2026-09-16 12:46:37,527 - INFO - ---------------------------
+2026-09-16 12:46:37,528 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:37,528 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:37,529 - INFO - request recieved for auth/check
+2026-09-16 12:46:37,536 - INFO - ---------------------------
+2026-09-16 12:46:37,537 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:37,537 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:37,542 - INFO - ---------------------------
+2026-09-16 12:46:37,543 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:37,543 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:38,210 - INFO - ---------------------------
+2026-09-16 12:46:38,211 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:38,211 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:38,213 - INFO - request recieved for freebooks api
+2026-09-16 12:46:38,213 - INFO - correct role:user, call that api
+2026-09-16 12:46:38,215 - INFO - database query execute
+2026-09-16 12:46:38,222 - INFO - ---------------------------
+2026-09-16 12:46:38,223 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:38,223 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:38,225 - INFO - request recieved for userrecord api
+2026-09-16 12:46:38,225 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:38,226 - INFO - database query execute
+2026-09-16 12:46:39,185 - INFO - ---------------------------
+2026-09-16 12:46:39,186 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:46:39,186 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,188 - INFO - request recieved at cancel request
+2026-09-16 12:46:39,188 - INFO - correct role like user call cancel request api
+2026-09-16 12:46:39,189 - INFO - query execute for cancel request
+2026-09-16 12:46:39,194 - INFO - changes save in connection
+2026-09-16 12:46:39,258 - INFO - ---------------------------
+2026-09-16 12:46:39,258 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:39,259 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,260 - INFO - request recieved for auth/check
+2026-09-16 12:46:39,264 - INFO - ---------------------------
+2026-09-16 12:46:39,265 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:39,265 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,269 - INFO - ---------------------------
+2026-09-16 12:46:39,269 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:39,270 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,274 - INFO - ---------------------------
+2026-09-16 12:46:39,275 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:39,275 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,277 - INFO - request recieved for freebooks api
+2026-09-16 12:46:39,277 - INFO - correct role:user, call that api
+2026-09-16 12:46:39,278 - INFO - database query execute
+2026-09-16 12:46:39,286 - INFO - ---------------------------
+2026-09-16 12:46:39,286 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:39,286 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:39,288 - INFO - request recieved for userrecord api
+2026-09-16 12:46:39,288 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:39,289 - INFO - database query execute
+2026-09-16 12:46:49,923 - INFO - ---------------------------
+2026-09-16 12:46:49,923 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:49,924 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:49,925 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:49,926 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:49,926 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:49,926 - INFO - database connection occur
+2026-09-16 12:46:49,927 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:49,927 - INFO - take row from cursor obj
+2026-09-16 12:46:49,927 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:49,927 - INFO - insert book in record table
+2026-09-16 12:46:49,934 - INFO - save changes in database
+2026-09-16 12:46:49,934 - INFO - close the cursor
+2026-09-16 12:46:50,003 - INFO - ---------------------------
+2026-09-16 12:46:50,003 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:50,003 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:50,004 - INFO - request recieved for auth/check
+2026-09-16 12:46:50,008 - INFO - ---------------------------
+2026-09-16 12:46:50,008 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:50,008 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:50,016 - INFO - ---------------------------
+2026-09-16 12:46:50,016 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:50,017 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:50,168 - INFO - ---------------------------
+2026-09-16 12:46:50,168 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:50,168 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:50,171 - INFO - request recieved for freebooks api
+2026-09-16 12:46:50,171 - INFO - correct role:user, call that api
+2026-09-16 12:46:50,173 - INFO - database query execute
+2026-09-16 12:46:50,182 - INFO - ---------------------------
+2026-09-16 12:46:50,183 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:50,183 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:50,186 - INFO - request recieved for userrecord api
+2026-09-16 12:46:50,186 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:50,187 - INFO - database query execute
+2026-09-16 12:46:53,231 - INFO - ---------------------------
+2026-09-16 12:46:53,231 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:53,231 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,241 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:53,241 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:53,241 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:53,242 - INFO - database connection occur
+2026-09-16 12:46:53,243 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:53,243 - INFO - take row from cursor obj
+2026-09-16 12:46:53,243 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:53,244 - INFO - insert book in record table
+2026-09-16 12:46:53,256 - INFO - save changes in database
+2026-09-16 12:46:53,256 - INFO - close the cursor
+2026-09-16 12:46:53,320 - INFO - ---------------------------
+2026-09-16 12:46:53,320 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:53,320 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,322 - INFO - request recieved for auth/check
+2026-09-16 12:46:53,385 - INFO - ---------------------------
+2026-09-16 12:46:53,385 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:53,385 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,391 - INFO - ---------------------------
+2026-09-16 12:46:53,391 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:53,392 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,399 - INFO - ---------------------------
+2026-09-16 12:46:53,400 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:53,400 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,402 - INFO - request recieved for freebooks api
+2026-09-16 12:46:53,412 - INFO - correct role:user, call that api
+2026-09-16 12:46:53,414 - INFO - database query execute
+2026-09-16 12:46:53,420 - INFO - ---------------------------
+2026-09-16 12:46:53,420 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:53,421 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:53,422 - INFO - request recieved for userrecord api
+2026-09-16 12:46:53,422 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:53,423 - INFO - database query execute
+2026-09-16 12:46:54,663 - INFO - ---------------------------
+2026-09-16 12:46:54,663 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:54,663 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:54,664 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:54,665 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:54,665 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:54,665 - INFO - database connection occur
+2026-09-16 12:46:54,665 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:54,665 - INFO - take row from cursor obj
+2026-09-16 12:46:54,665 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:54,666 - INFO - insert book in record table
+2026-09-16 12:46:54,670 - INFO - save changes in database
+2026-09-16 12:46:54,670 - INFO - close the cursor
+2026-09-16 12:46:54,752 - INFO - ---------------------------
+2026-09-16 12:46:54,753 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:54,753 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:54,754 - INFO - request recieved for auth/check
+2026-09-16 12:46:54,757 - INFO - ---------------------------
+2026-09-16 12:46:54,758 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:54,758 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:54,766 - INFO - ---------------------------
+2026-09-16 12:46:54,766 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:54,766 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:55,356 - INFO - ---------------------------
+2026-09-16 12:46:55,356 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:55,357 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:55,358 - INFO - request recieved for freebooks api
+2026-09-16 12:46:55,359 - INFO - correct role:user, call that api
+2026-09-16 12:46:55,360 - INFO - database query execute
+2026-09-16 12:46:55,369 - INFO - ---------------------------
+2026-09-16 12:46:55,369 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:55,369 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:55,371 - INFO - request recieved for userrecord api
+2026-09-16 12:46:55,372 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:55,374 - INFO - database query execute
+2026-09-16 12:46:56,469 - INFO - ---------------------------
+2026-09-16 12:46:56,469 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:56,470 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,471 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:56,472 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:56,472 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:56,472 - INFO - database connection occur
+2026-09-16 12:46:56,473 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:56,473 - INFO - take row from cursor obj
+2026-09-16 12:46:56,473 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:56,474 - INFO - insert book in record table
+2026-09-16 12:46:56,478 - INFO - save changes in database
+2026-09-16 12:46:56,478 - INFO - close the cursor
+2026-09-16 12:46:56,545 - INFO - ---------------------------
+2026-09-16 12:46:56,545 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:56,545 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,546 - INFO - request recieved for auth/check
+2026-09-16 12:46:56,549 - INFO - ---------------------------
+2026-09-16 12:46:56,550 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:56,550 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,555 - INFO - ---------------------------
+2026-09-16 12:46:56,555 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:56,555 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,562 - INFO - ---------------------------
+2026-09-16 12:46:56,562 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:56,562 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,563 - INFO - request recieved for freebooks api
+2026-09-16 12:46:56,563 - INFO - correct role:user, call that api
+2026-09-16 12:46:56,565 - INFO - database query execute
+2026-09-16 12:46:56,569 - INFO - ---------------------------
+2026-09-16 12:46:56,569 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:56,569 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:56,570 - INFO - request recieved for userrecord api
+2026-09-16 12:46:56,570 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:56,570 - INFO - database query execute
+2026-09-16 12:46:58,890 - INFO - ---------------------------
+2026-09-16 12:46:58,890 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:46:58,891 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:58,895 - INFO - Request for book borrow is recieved
+2026-09-16 12:46:58,895 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:46:58,895 - INFO - take data from request.state.user and store dat
+2026-09-16 12:46:58,895 - INFO - database connection occur
+2026-09-16 12:46:58,897 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:46:58,897 - INFO - take row from cursor obj
+2026-09-16 12:46:58,897 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:46:58,899 - INFO - insert book in record table
+2026-09-16 12:46:58,911 - INFO - save changes in database
+2026-09-16 12:46:58,911 - INFO - close the cursor
+2026-09-16 12:46:58,998 - INFO - ---------------------------
+2026-09-16 12:46:58,998 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:46:58,998 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:58,999 - INFO - request recieved for auth/check
+2026-09-16 12:46:59,003 - INFO - ---------------------------
+2026-09-16 12:46:59,003 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:46:59,003 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:59,008 - INFO - ---------------------------
+2026-09-16 12:46:59,009 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:46:59,009 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:59,679 - INFO - ---------------------------
+2026-09-16 12:46:59,679 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:46:59,680 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:59,682 - INFO - request recieved for freebooks api
+2026-09-16 12:46:59,682 - INFO - correct role:user, call that api
+2026-09-16 12:46:59,684 - INFO - database query execute
+2026-09-16 12:46:59,691 - INFO - ---------------------------
+2026-09-16 12:46:59,692 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:46:59,692 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:46:59,695 - INFO - request recieved for userrecord api
+2026-09-16 12:46:59,695 - INFO - correct role:user, call userrecord api
+2026-09-16 12:46:59,698 - INFO - database query execute
+2026-09-16 12:47:00,880 - INFO - ---------------------------
+2026-09-16 12:47:00,881 - INFO - middleware for that endpoint: /request runs
+2026-09-16 12:47:00,881 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:00,884 - INFO - Request for book borrow is recieved
+2026-09-16 12:47:00,885 - DEBUG - Correct Role mean user called borrow books api
+2026-09-16 12:47:00,885 - INFO - take data from request.state.user and store dat
+2026-09-16 12:47:00,885 - INFO - database connection occur
+2026-09-16 12:47:00,886 - INFO - execute query: Select * from books where Book_id=%s,(req.ID,) 
+2026-09-16 12:47:00,886 - INFO - take row from cursor obj
+2026-09-16 12:47:00,887 - INFO - confirm that cursor row is not empty mean book exist for that book id
+2026-09-16 12:47:00,888 - INFO - insert book in record table
+2026-09-16 12:47:00,893 - INFO - save changes in database
+2026-09-16 12:47:00,893 - INFO - close the cursor
+2026-09-16 12:47:00,976 - INFO - ---------------------------
+2026-09-16 12:47:00,977 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:00,977 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:00,978 - INFO - request recieved for auth/check
+2026-09-16 12:47:00,981 - INFO - ---------------------------
+2026-09-16 12:47:00,981 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:00,982 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:00,988 - INFO - ---------------------------
+2026-09-16 12:47:00,988 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:00,988 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:00,996 - INFO - ---------------------------
+2026-09-16 12:47:00,996 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:00,996 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:00,998 - INFO - request recieved for freebooks api
+2026-09-16 12:47:00,998 - INFO - correct role:user, call that api
+2026-09-16 12:47:00,999 - INFO - database query execute
+2026-09-16 12:47:01,007 - INFO - ---------------------------
+2026-09-16 12:47:01,007 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:01,007 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:01,008 - INFO - request recieved for userrecord api
+2026-09-16 12:47:01,008 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:01,009 - INFO - database query execute
+2026-09-16 12:47:03,313 - INFO - ---------------------------
+2026-09-16 12:47:03,314 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:03,314 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:03,316 - INFO - request recieved at cancel request
+2026-09-16 12:47:03,316 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:03,319 - INFO - query execute for cancel request
+2026-09-16 12:47:03,324 - INFO - changes save in connection
+2026-09-16 12:47:03,404 - INFO - ---------------------------
+2026-09-16 12:47:03,404 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:03,404 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:03,405 - INFO - request recieved for auth/check
+2026-09-16 12:47:03,411 - INFO - ---------------------------
+2026-09-16 12:47:03,411 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:03,411 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:03,416 - INFO - ---------------------------
+2026-09-16 12:47:03,417 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:03,417 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:04,076 - INFO - ---------------------------
+2026-09-16 12:47:04,076 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:04,076 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:04,078 - INFO - request recieved for freebooks api
+2026-09-16 12:47:04,079 - INFO - correct role:user, call that api
+2026-09-16 12:47:04,080 - INFO - database query execute
+2026-09-16 12:47:04,086 - INFO - ---------------------------
+2026-09-16 12:47:04,087 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:04,087 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:04,089 - INFO - request recieved for userrecord api
+2026-09-16 12:47:04,089 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:04,090 - INFO - database query execute
+2026-09-16 12:47:06,521 - INFO - ---------------------------
+2026-09-16 12:47:06,521 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:06,521 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,524 - INFO - request recieved at cancel request
+2026-09-16 12:47:06,524 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:06,525 - INFO - query execute for cancel request
+2026-09-16 12:47:06,530 - INFO - changes save in connection
+2026-09-16 12:47:06,599 - INFO - ---------------------------
+2026-09-16 12:47:06,599 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:06,599 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,600 - INFO - request recieved for auth/check
+2026-09-16 12:47:06,603 - INFO - ---------------------------
+2026-09-16 12:47:06,603 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:06,603 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,607 - INFO - ---------------------------
+2026-09-16 12:47:06,607 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:06,607 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,612 - INFO - ---------------------------
+2026-09-16 12:47:06,612 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:06,612 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,614 - INFO - request recieved for freebooks api
+2026-09-16 12:47:06,614 - INFO - correct role:user, call that api
+2026-09-16 12:47:06,617 - INFO - database query execute
+2026-09-16 12:47:06,622 - INFO - ---------------------------
+2026-09-16 12:47:06,622 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:06,622 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:06,623 - INFO - request recieved for userrecord api
+2026-09-16 12:47:06,623 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:06,624 - INFO - database query execute
+2026-09-16 12:47:08,676 - INFO - ---------------------------
+2026-09-16 12:47:08,677 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:08,677 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:08,679 - INFO - request recieved at cancel request
+2026-09-16 12:47:08,679 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:08,681 - INFO - query execute for cancel request
+2026-09-16 12:47:08,686 - INFO - changes save in connection
+2026-09-16 12:47:08,781 - INFO - ---------------------------
+2026-09-16 12:47:08,781 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:08,781 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:08,782 - INFO - request recieved for auth/check
+2026-09-16 12:47:08,786 - INFO - ---------------------------
+2026-09-16 12:47:08,786 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:08,787 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:08,790 - INFO - ---------------------------
+2026-09-16 12:47:08,791 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:08,791 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:09,479 - INFO - ---------------------------
+2026-09-16 12:47:09,480 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:09,480 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:09,482 - INFO - request recieved for freebooks api
+2026-09-16 12:47:09,482 - INFO - correct role:user, call that api
+2026-09-16 12:47:09,483 - INFO - database query execute
+2026-09-16 12:47:09,492 - INFO - ---------------------------
+2026-09-16 12:47:09,492 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:09,492 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:09,494 - INFO - request recieved for userrecord api
+2026-09-16 12:47:09,494 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:09,496 - INFO - database query execute
+2026-09-16 12:47:10,426 - INFO - ---------------------------
+2026-09-16 12:47:10,426 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:10,427 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,429 - INFO - request recieved at cancel request
+2026-09-16 12:47:10,429 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:10,431 - INFO - query execute for cancel request
+2026-09-16 12:47:10,435 - INFO - changes save in connection
+2026-09-16 12:47:10,520 - INFO - ---------------------------
+2026-09-16 12:47:10,520 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:10,520 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,521 - INFO - request recieved for auth/check
+2026-09-16 12:47:10,525 - INFO - ---------------------------
+2026-09-16 12:47:10,525 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:10,526 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,534 - INFO - ---------------------------
+2026-09-16 12:47:10,535 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:10,535 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,540 - INFO - ---------------------------
+2026-09-16 12:47:10,540 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:10,540 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,542 - INFO - request recieved for freebooks api
+2026-09-16 12:47:10,542 - INFO - correct role:user, call that api
+2026-09-16 12:47:10,544 - INFO - database query execute
+2026-09-16 12:47:10,549 - INFO - ---------------------------
+2026-09-16 12:47:10,549 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:10,549 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:10,550 - INFO - request recieved for userrecord api
+2026-09-16 12:47:10,550 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:10,551 - INFO - database query execute
+2026-09-16 12:47:12,605 - INFO - ---------------------------
+2026-09-16 12:47:12,605 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:12,606 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:12,608 - INFO - request recieved at cancel request
+2026-09-16 12:47:12,608 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:12,610 - INFO - query execute for cancel request
+2026-09-16 12:47:12,621 - INFO - changes save in connection
+2026-09-16 12:47:12,709 - INFO - ---------------------------
+2026-09-16 12:47:12,709 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:12,709 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:12,710 - INFO - request recieved for auth/check
+2026-09-16 12:47:12,713 - INFO - ---------------------------
+2026-09-16 12:47:12,714 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:12,714 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:12,720 - INFO - ---------------------------
+2026-09-16 12:47:12,721 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:12,721 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:13,443 - INFO - ---------------------------
+2026-09-16 12:47:13,443 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:13,443 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:13,445 - INFO - request recieved for freebooks api
+2026-09-16 12:47:13,446 - INFO - correct role:user, call that api
+2026-09-16 12:47:13,447 - INFO - database query execute
+2026-09-16 12:47:13,457 - INFO - ---------------------------
+2026-09-16 12:47:13,457 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:13,457 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:13,460 - INFO - request recieved for userrecord api
+2026-09-16 12:47:13,460 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:13,462 - INFO - database query execute
+2026-09-16 12:47:14,687 - INFO - ---------------------------
+2026-09-16 12:47:14,687 - INFO - middleware for that endpoint: /cancel_request runs
+2026-09-16 12:47:14,687 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,690 - INFO - request recieved at cancel request
+2026-09-16 12:47:14,691 - INFO - correct role like user call cancel request api
+2026-09-16 12:47:14,693 - INFO - query execute for cancel request
+2026-09-16 12:47:14,698 - INFO - changes save in connection
+2026-09-16 12:47:14,843 - INFO - ---------------------------
+2026-09-16 12:47:14,843 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:14,843 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,845 - INFO - request recieved for auth/check
+2026-09-16 12:47:14,850 - INFO - ---------------------------
+2026-09-16 12:47:14,850 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:14,850 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,856 - INFO - ---------------------------
+2026-09-16 12:47:14,856 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:14,857 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,875 - INFO - ---------------------------
+2026-09-16 12:47:14,875 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:14,876 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,877 - INFO - request recieved for freebooks api
+2026-09-16 12:47:14,877 - INFO - correct role:user, call that api
+2026-09-16 12:47:14,878 - INFO - database query execute
+2026-09-16 12:47:14,881 - INFO - ---------------------------
+2026-09-16 12:47:14,881 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:14,882 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:14,883 - INFO - request recieved for userrecord api
+2026-09-16 12:47:14,883 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:14,883 - INFO - database query execute
+2026-09-16 12:47:40,545 - INFO - ---------------------------
+2026-09-16 12:47:40,546 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:40,546 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:40,561 - INFO - ---------------------------
+2026-09-16 12:47:40,562 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:40,562 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:40,570 - INFO - ---------------------------
+2026-09-16 12:47:40,571 - INFO - middleware for that endpoint: /refresh runs
+2026-09-16 12:47:40,571 - INFO - cookies : {'refresh': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsInR5cGUiOiJyZWZyZXNoIiwiZXhwIjoxNzkwMTQ5NTc2fQ.SxoYMvz1MNO8q7LmAfLfKyYfGql3M8TeY17gRaB45YA', 'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NDgzNn0.Ba_ircOWhpeGYtMb4f_tKg2dLt2Zv8e2Z1tqXOV3EG4'}
+2026-09-16 12:47:40,595 - INFO - requst for refrsh api recieved
+2026-09-16 12:47:40,597 - INFO - data extract from  refresh token 
+2026-09-16 12:47:40,597 - INFO - refresh-payload is create
+2026-09-16 12:47:40,597 - INFO - access token is create
+2026-09-16 12:47:40,597 - INFO - refresh payload is create
+2026-09-16 12:47:40,598 - INFO - refresh token is create
+2026-09-16 12:47:40,598 - INFO - access token is create in cookies
+2026-09-16 12:47:40,598 - INFO - refresh token is create in cookies
+2026-09-16 12:47:41,776 - INFO - ---------------------------
+2026-09-16 12:47:41,777 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:41,777 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:41,778 - INFO - request recieved for auth/check
+2026-09-16 12:47:41,783 - INFO - ---------------------------
+2026-09-16 12:47:41,783 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:41,783 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:41,791 - INFO - ---------------------------
+2026-09-16 12:47:41,791 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:41,791 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:41,800 - INFO - ---------------------------
+2026-09-16 12:47:41,800 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:41,801 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:41,803 - INFO - request recieved for freebooks api
+2026-09-16 12:47:41,803 - INFO - correct role:user, call that api
+2026-09-16 12:47:41,804 - INFO - database query execute
+2026-09-16 12:47:41,810 - INFO - ---------------------------
+2026-09-16 12:47:41,810 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:41,810 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:41,812 - INFO - request recieved for userrecord api
+2026-09-16 12:47:41,812 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:41,813 - INFO - database query execute
+2026-09-16 12:47:48,083 - INFO - ---------------------------
+2026-09-16 12:47:48,083 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 12:47:48,083 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:48,085 - INFO - request recieved for auth/check
+2026-09-16 12:47:48,092 - INFO - ---------------------------
+2026-09-16 12:47:48,092 - INFO - middleware for that endpoint: /picture runs
+2026-09-16 12:47:48,093 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:48,104 - INFO - ---------------------------
+2026-09-16 12:47:48,105 - INFO - middleware for that endpoint: /pic/ad917721-ad77-4635-b263-d41222079f7b.jpg runs
+2026-09-16 12:47:48,105 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:48,356 - INFO - ---------------------------
+2026-09-16 12:47:48,357 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 12:47:48,357 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:48,360 - INFO - request recieved for freebooks api
+2026-09-16 12:47:48,360 - INFO - correct role:user, call that api
+2026-09-16 12:47:48,362 - INFO - database query execute
+2026-09-16 12:47:48,370 - INFO - ---------------------------
+2026-09-16 12:47:48,370 - INFO - middleware for that endpoint: /userrecord runs
+2026-09-16 12:47:48,370 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:47:48,372 - INFO - request recieved for userrecord api
+2026-09-16 12:47:48,372 - INFO - correct role:user, call userrecord api
+2026-09-16 12:47:48,374 - INFO - database query execute
+2026-09-16 12:48:33,477 - INFO - ---------------------------
+2026-09-16 12:48:33,477 - INFO - middleware for that endpoint: /signup runs
+2026-09-16 12:48:33,478 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:48:36,501 - INFO - request recieved for upload file api
+2026-09-16 12:48:36,659 - INFO - data is read from file
+2026-09-16 12:48:36,660 - INFO - file is not empty
+2026-09-16 12:48:36,660 - INFO - extract extension from file
+2026-09-16 12:48:36,660 - INFO - our file is more than 5mb
+2026-09-16 12:50:15,824 - INFO - ---------------------------
+2026-09-16 12:50:15,824 - INFO - middleware for that endpoint: /signup runs
+2026-09-16 12:50:15,825 - INFO - cookies : {'access': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc4OTU0NTQ2MH0.XuxU3vRXqTgTZ9CXXz6YiyeY1_m1_JcqhPdft3CcQ_s'}
+2026-09-16 12:50:15,906 - INFO - request recieved for upload file api
+2026-09-16 12:50:15,911 - INFO - data is read from file
+2026-09-16 12:50:15,911 - INFO - file is not empty
+2026-09-16 12:50:15,911 - INFO - extract extension from file
+2026-09-16 12:50:15,911 - INFO - our file is more than 5mb
+2026-09-16 22:54:39,983 - INFO - ---------------------------
+2026-09-16 22:54:39,995 - INFO - middleware for that endpoint: /auth/check runs
+2026-09-16 22:54:39,996 - INFO - cookies : {}
+2026-09-16 22:54:40,025 - INFO - ---------------------------
+2026-09-16 22:54:40,025 - INFO - middleware for that endpoint: /freebooks runs
+2026-09-16 22:54:40,025 - INFO - cookies : {}
+2026-09-16 22:54:40,034 - INFO - ---------------------------
+2026-09-16 22:54:40,035 - INFO - middleware for that endpoint: /refresh runs
+2026-09-16 22:54:40,036 - INFO - cookies : {'refresh': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyaWQiOjIwLCJyb2xlIjoiVXNlciIsImVtYWlsIjoibDFAZ21haWwuY29tIiwiVVJMIjoiYWQ5MTc3MjEtYWQ3Ny00NjM1LWIyNjMtZDQxMjIyMDc5ZjdiLmpwZyIsImV4cCI6MTc5MDE0OTY2MH0.z62YuQH5Ys4BUVOhhlmuv1NoLmNuK2F2tNqT37pZNPc'}
+2026-09-16 22:54:40,061 - INFO - requst for refrsh api recieved
+2026-09-16 22:54:40,082 - INFO - data extract from  refresh token 
+2026-09-16 22:54:40,082 - INFO - refresh-payload is create
+2026-09-16 22:54:40,084 - INFO - access token is create
+2026-09-16 22:54:40,084 - INFO - refresh payload is create
+2026-09-16 22:54:40,085 - INFO - refresh token is create
+2026-09-16 22:54:40,088 - INFO - access token is create in cookies
+2026-09-16 22:54:40,088 - INFO - refresh token is create in cookies

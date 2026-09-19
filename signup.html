@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <script>
+function verify(userid){
+    let value=document.getElementById("otp").value
+    let xhr=new XMLHttpRequest()
+    value=parseInt(value)
+    xhr.open("POST","http://localhost:8001/email",false)
+   xhr.setRequestHeader("Content-Type","application/json")
+   
+    xhr.send(JSON.stringify({
+        "OTP":value,
+        "Userid":userid
+    }))
+    var response=xhr.response
+    response=JSON.parse(response)
+    if(xhr.status==200){
+        alert("valid OTP")
+        window.location.replace("login.html")
+    }
+    else if(xhr.status==401){
+        alert(response.msg)
+        setTimeout(function(){
+            window.location.reload()
+        },700)
+    }
+    else if(xhr.status==402){
+        alert(response.msg)
+    }
+}
+       
+
+   
+    
+
+        function OnSignupClick() {
+            // disable signup button
+            var button=document.getElementById("signup")
+             
+            button.setAttribute("disabled",true)
+            let xhr = new XMLHttpRequest();
+
+            xhr.open("POST", "http://localhost:8001/signup", false);
+            
+            xhr.withCredentials = true;
+
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var file=document.getElementById("profile").files[0]
+            let formdata=new FormData()
+            formdata.append("email",email)
+            formdata.append("password",password)
+            formdata.append("file",file)
+            xhr.send(formdata)
+ var response = JSON.parse(xhr.response);
+            if (xhr.status == 200) {
+      var otp=document.getElementById("OTP")
+     var show=`<input id="otp" type="text" placeholder="Enter OTP" pattern="[0-9]{6}" maxlength="6" inputmode="numeric" >
+             <button onclick="verify(${response.Userid})">Verify OTP</button>`
+             otp.innerHTML=show
+               
+
+                // alert(response.detail);
+
+                // window.location.href("login.html");
+
+            }
+            else if (xhr.status==401){
+                alert(response.detail)
+                button.removeAttribute("disabled")
+            }
+            else if(xhr.status==500){
+                 alert(response.msg)
+            }   
+                     else {
+                alert(response.msg);
+                  button.removeAttribute("disabled")
+
+            }
+        }
+
+    </script>
+
+    <head>
+        <title>Sign up page</title>
+    </head>
+
+    <body>
+
+        <h4>Signup page</h4>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email"
+            autocomplete="email"
+        >
+
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password"
+            autocomplete="new-password"
+            >
+        <input type="file" name="profile" placeholder="Upload" id="profile">
+        
+        <button class="Signup btn" id="signup" onclick="OnSignupClick()">
+            Sign up
+        </button>
+        <br>
+        <br>
+<!-- <button onclick="window.location.href='login.html'">Login</button> -->
+<a href="login.html">Login </a>
+<div id="OTP"></div>
+
+
+</body>
+</html>

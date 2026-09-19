@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+    table,td,th{
+        border:1px solid black
+    }
+
+    
+        .logout-btn {
+            position: fixed;
+            top: 20px;
+            right: 25px;
+            padding: 10px 18px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .logout-btn:hover {
+            background-color: #c9302c;
+        }
+</style>
+
+<script>
+
+  document.addEventListener("DOMContentLoaded",function(){
+
+    let xhr=new XMLHttpRequest()
+    xhr.open("GET","http://localhost:8001/auth/check",false)
+    xhr.withCredentials=true
+    xhr.send()
+    var response=xhr.response
+    response=JSON.parse(response)
+    if(xhr.status==200){
+             if(response.role==="Admin"){
+
+             }
+             else if(response.role==="User"){
+              body=document.getElementById("body")
+              body.style.display='none'
+              alert("User cannot access admin page")
+              window.location.assign("login.html")
+             }
+    }
+   else if(xhr.status==401){
+    alert(response.msg)
+      window.location.assign("login.html")
+    }
+  
+  })
+   
+function Logout(){
+  let xhr=new XMLHttpRequest()
+  xhr.open("POST","http://localhost:8001/logout",false)
+  xhr.send()
+  if(xhr.status==200){
+    window.location.replace("login.html")
+  }
+  else{
+    alert(response.msg)
+  }
+}
+    window.onload=function(){
+      let xhr=new XMLHttpRequest();
+      xhr.open("GET","http://localhost:8001/admin",false);
+      xhr.withCredentials=true
+      xhr.send();
+      var response=xhr.response;
+
+      response=JSON.parse(response);
+    let html="";   
+      if(xhr.status==200){
+
+        for (let book of response.list1){
+            html+=`<tr>
+                        <td>${book.Book_name}</td>
+                        <td>${book.Book_id}</td>
+                        <td>${book.Author_name}</td>
+                        <td><button >Free</button></td>
+                        </tr>`;
+        }
+        document.getElementById("freetable").innerHTML+=html;
+    let h=""
+        for (let book of response.list2){
+            h+=`<tr>
+                        <td>${book.Book_name}</td>
+                        <td>${book.Book_id}</td>
+                        <td>${book.Author_name}</td>
+                        <td><button >${book.Status}</button></td>
+                        </tr>`;
+        }
+        document.getElementById("freetable").innerHTML+=h;
+
+
+      }
+      else if(xhr.status==401){
+        xhr.open("GET","http://localhost:8001/refresh",false)
+        xhr.withCredentials=true
+        xhr.send()
+        if(xhr.status==200){
+          window.reload()
+        }
+        
+        else{
+          alert("refresh for admin dont occur")
+        }
+      }
+else if(xhr.status==404){
+          window.location.reload("login.html")
+        }
+      else{
+        alert("free and borrowed books dont work correctly");
+      }
+      
+    let xh=new XMLHttpRequest();
+      xh.open("GET","http://localhost:8001/requested_books",false);
+      xh.withCredentials=true
+      xh.send();
+      var respons=xh.response;
+      respons=JSON.parse(respons);
+    let request="";
+    if(xh.status==200){    
+        for (let freebook of respons){
+            request+=`<tr>
+                <td>${freebook.User_id}</td>
+                <td>${freebook.Book_name}</td>
+                <td>${freebook.Book_id}</td>
+                <td>${freebook.Author_name}</td>
+                <td><button onclick="Acceptbtn(this)">Accept</button> <button onclick="RejectBtn(this)">Reject</button>
+                    `;
+        }
+
+        document.getElementById("requestedtable").innerHTML=request;
+    }
+
+        else if(xh.status==401){
+        xh.open("GET","http://localhost:8001/refresh",false)
+        xh.withCredentials=true
+        xh.send()
+        if(xh.status==200){
+          window.reload()     
+        }
+        else{
+          alert("refresh for admin dont occur")
+        }
+      }
+      else if(xhr.status==404){
+          window.location.reload("login.html")
+        }
+
+    else{
+        alert("Accept and Reject dont work correctly");
+      }
+      
+
+    };
+
+    document.addEventListener("visibilitychange",function(){
+      if(document.visibilityState==="visible"){
+      window.location.reload()
+    }}
+    )
+
+
+    function Acceptbtn(td){
+         let row=td.parentElement.parentElement;
+              let Bookid=row.cells[2].innerText;
+              let userid=row.cells[0].innerText;
+              userid=parseInt(userid)
+Bookid=parseInt(Bookid);
+
+        let xhr=new XMLHttpRequest();
+        xhr.open("POST","http://localhost:8001/accept",false);
+        xhr.setRequestHeader("Content-Type","application/json");
+        xhr.withCredentials=true
+        xhr.send(JSON.stringify({
+         "Bookid":Bookid,
+         "userid":userid
+          }));
+
+          if(xhr.status==200){
+            window.location.reload()
+          }
+          else if(xhr.status==401){
+              xhr.open("GET","http://localhost:8001/refresh",false)
+           xhr.withCredentials=true
+            xhr.send()
+             
+            if(xhr.status==200){
+            
+              Acceptbtn(td)
+              window.reload()
+            
+            }
+            else{
+              alert("refresh dont work for accept")
+            }
+          }
+          else if (xhr.status==404){
+            alert("you are not login please login first")
+            window.location.replace("login.html")
+          }
+          else if(xhr.status==403){
+            alert("Permission denied")
+            window.location.reload()
+          }
+          else {
+           alert("you token is expired")
+                  window.location.assign("login.html")
+          }
+
+    }
+
+
+    function RejectBtn(td){
+       let row=td.parentElement.parentElement;
+              let Bookid=row.cells[2].innerText;
+              let userid=row.cells[0].innerText;
+              userid=parseInt(userid)
+Bookid=parseInt(Bookid);
+        let xhr=new XMLHttpRequest();
+        xhr.open("POST","http://localhost:8001/reject",false);
+        xhr.setRequestHeader("Content-Type","application/json");
+         xhr.withCredentials=true
+        xhr.send(JSON.stringify({
+          "Bookid":Bookid,
+          "userid":userid
+          }));
+          
+          if(xhr.status==200){
+          window.location.reload()
+          }
+          else if(xhr.status==401){
+            xhr.open("GET","http://localhost:8001/refresh",false)
+    xhr.withCredentials=true
+            xhr.send()
+            
+            if(xhr.status==200){
+              RejectBtn(td)
+              window.reload()
+            }
+            else{
+              alert("your refresh dont work for reject")
+            }
+          }
+          else if(xhr.status==403){
+            alert("Permission denied")
+            window.location.reload()
+          }
+           else if (xhr.status==404){
+            alert("you are not login please login first")
+            window.location.replace("login.html")
+          }
+          else {
+           alert("you token is expired")
+                  window.location.assign("login.html")
+          }
+
+  }
+</script>
+<head>
+    <title>Admin Dashboard</title>
+</head>
+<body id="body">
+  <button class="logout-btn" onclick="Logout()">Logout</button>
+  <button onclick="window.location.href='login.html'">Login</button>
+       <button onclick="window.location.href='signup.html'">Signup</button>           
+        
+</body>  
+  <h1>
+        Admin Page
+    </h1>
+    <h2>All free and borrowed books</h2>
+    <table>
+        <thead> <tr>
+        
+            <th>Book name</th>
+             <th>Book id</th>
+              <th>Author name</th>
+               <th>Status</th>
+        </tr></thead>
+       
+      <tbody id="freetable"></tbody>
+                </table>
+
+                <h2>Requested Books</h2>
+
+<table>
+
+  <thead><th>User id</th>
+            <th>Book name</th>
+             <th>Book id</th>
+              <th>Author name</th>
+               <th>Action</th>
+    </thead>
+    
+
+   <tbody id="requestedtable"></tbody>
+        
+</table>
+
+     
+</html>
