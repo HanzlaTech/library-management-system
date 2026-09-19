@@ -427,7 +427,6 @@ def login(data:LoginSchema,response:Response,request:Request):
             "userid":user["User_id"],
             "role":user["Role"],
             "email":user["Email"],
-            
             "URL":user["URL"],
             "exp":datetime.utcnow()+timedelta(minutes=1)
         }
