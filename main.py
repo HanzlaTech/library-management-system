@@ -420,7 +420,7 @@ def login(data:LoginSchema,response:Response,request:Request):
     user=cursor.fetchone()
     cursor.close()
     if user is not None:
-     log.info("User exist in databased")
+     log.info("User exist in database")
      if password_hash.verify(data.password,user["Password"]):
         log.info("password is hash")
         payload={
